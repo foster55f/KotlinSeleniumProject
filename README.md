@@ -14,4 +14,4 @@ This was a fun project using for the first time the IntelliJ IDE, Maven, the Tes
 - Run test `loopTestUniverseOfBirds()` in src -> kotlin -> com.example.looptest -> UniverseOfBirdsTest 
 
 ## GIF of Test Run
-https://user-images.githubusercontent.com/50148342/132257570-3cfee867-444d-4bd2-98ed-cf667a5f66d7.mov
+https://user-images.githubusercontent.com/50148342/132264907-0c9363f9-dc52-4b2c-bd75-fd22287fdac6.mov
