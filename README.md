@@ -1,5 +1,7 @@
 # KotlinSeleniumProject
 
+This was a fun project using for the first time the IntelliJ IDE, Maven, the TestNG testing framework, and Selenium. Kotlin was the programming language used within the project. A view file was created to contain all of the elements within the applicable site, while the testing suite contains all the assertions.
+
 ## Steps To Run Project
 
 - Download IntelliJ IDEA Ultimate Edition Free Trial
