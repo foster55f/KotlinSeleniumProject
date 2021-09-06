@@ -11,6 +11,7 @@ class UniverseOfBirdsTest {
 
     @BeforeMethod
     fun setUpAll() {
+
         Configuration.browserSize = "1280x800"
     }
 
@@ -27,6 +28,11 @@ class UniverseOfBirdsTest {
         mainPage.fosterBirdsProduct.shouldBe(visible)
         mainPage.fosterBirdsProduct.click()
         mainPage.addToCartButton.click()
+        mainPage.shoppingCartCountIcon.shouldHave(text("1"));
+        mainPage.viewCartButton.click()
+        mainPage.yourCartHeader.shouldBe(visible)
+        mainPage.fosterBirdsProduct.shouldBe(visible)
+        assertEquals(mainPage.cartProductQuantity.value, "1")
         mainPage.shoppingCartCountIcon.shouldHave(text("1"));
     }
 }
